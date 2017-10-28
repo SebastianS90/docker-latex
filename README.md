@@ -1,7 +1,15 @@
 # Docker Image for LaTeX
 
-**Image Location**: `registry.gitlab.com/sebastians90/docker-latex:latest`
+**Image Location**: `registry.gitlab.com/sebastians90/docker-latex:latest` (built by [GiltLab CI](https://gitlab.com/SebastianS90/docker-latex/pipelines))
 
 This Docker image is based on [Debian](https://hub.docker.com/_/debian/) and comes with the following packages installed:
 
-- `texlive-full` (metapackage pulling in all components of TeX Live)
+- [`texlive-full`](https://packages.debian.org/stable/texlive-full) (metapackage pulling in all components of TeX Live)
+
+## Contributing
+The canonical source of this Docker image is [hosted on GitLab.com](https://gitlab.com/SebastianS90/docker-latex).
+Please file any issues [there](https://gitlab.com/SebastianS90/docker-latex/issues).
+
+## License
+This Dockerfile and the CI configuration is released into the public domain. Please see the [LICENSE](LICENSE) file for details.
+For the license of software that is downloaded by this Dockerfile, please refer to their appropriate vendors.
