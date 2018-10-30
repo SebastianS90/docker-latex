@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:testing
 MAINTAINER Sebastian Schweizer <sebastian@schweizer.tel>
 
 RUN apt-get update -qq -y \
