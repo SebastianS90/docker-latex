@@ -4,7 +4,7 @@
 
 This Docker image is based on [Debian](https://hub.docker.com/_/debian/) testing and comes with the following packages installed:
 
-- [`texlive-full`](https://packages.debian.org/stable/texlive-full) (metapackage pulling in all components of TeX Live)
+- [`texlive-full`](https://packages.debian.org/testing/texlive-full) (metapackage pulling in all components of TeX Live)
 
 ## Contributing
 The canonical source of this Docker image is [hosted on GitLab.com](https://gitlab.com/SebastianS90/docker-latex).
